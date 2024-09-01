@@ -9,8 +9,8 @@ print(senial_cuad_numpy)
 
 # Señal delta de dirac con numpy
 delta_dirac_numpy_1 = np.append(np.zeros(100),np.ones(1))
-delta_dirac_numpy =np.append(delta_dirac_numpy_1,np.zeros(100))
-print(delta_dirac_numpy)
+delta_dirac_numpy =np.append(delta_dirac_numpy_1,np.zeros(99))
+print("Array de Delta Dirac={}".format(delta_dirac_numpy.reshape(10,20)))
 
 # Señal triangular con numpy
 senial_tria_numpy = np.append(range(5),range(5,0,-1))
