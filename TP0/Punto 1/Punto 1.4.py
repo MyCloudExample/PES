@@ -2,7 +2,6 @@
 
 import matplotlib.pyplot as plt
 
-
 def graficar (vector):
     plt.title("Delta Dirac")
     plt.plot(vector)
