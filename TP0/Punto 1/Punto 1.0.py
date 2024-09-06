@@ -34,3 +34,4 @@ for a in range(5,0,-1):
 plt.title("Triangular")
 plt.plot(senial_tria)
 plt.show()
+# esta es la version 1.1.0 creada por Nahuel
